@@ -5,6 +5,8 @@ module FlightStats
                   :flight_number,
                   :departure_airport_fs_code,
                   :arrival_airport_fs_code,
+                  :departure_airport,
+                  :arrival_airport,
                   :departure_date,
                   :arrival_date,
                   :status,
