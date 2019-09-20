@@ -2,6 +2,7 @@ module FlightStats
   class FlightStatus < Resource
     attr_accessor :flight_id,
                   :carrier_fs_code,
+                  :carrier,
                   :flight_number,
                   :departure_airport_fs_code,
                   :arrival_airport_fs_code,
